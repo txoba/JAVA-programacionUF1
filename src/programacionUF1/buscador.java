@@ -1,5 +1,7 @@
 package programacionUF1;
+
 import java.io.*;
+
 public class buscador {
 
 	/*
@@ -15,12 +17,12 @@ public class buscador {
 			BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 			String buscador;
 			int count = 0;
-			
+
 			System.out.println("Frase o conjunto de palabras:");
 			buscador = buffer.readLine();
 			buscador = buscador.toLowerCase();
 			char[] b1 = buscador.toCharArray();
-			
+
 			System.out.println("Buscar:");
 			buscador = buffer.readLine();
 			buscador = buscador.toLowerCase();
